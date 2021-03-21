@@ -9,10 +9,47 @@ class MyDocument extends Document {
 
   render() {
     return (
-      <Html>
-        <Head></Head>
-        <body></body>
-      </Html>
+        <Html>
+          <Head />
+          <body>
+            <Main />
+            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+            <title>Bolby - Portfolio/CV/Resume HTML Template</title>
+            <meta name="description" content="Bolby - Portfolio/CV/Resume HTML Template"/>
+            <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+            <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
+
+            <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all"/>
+            <link rel="stylesheet" href="css/all.min.css" type="text/css" media="all"/>
+            <link rel="stylesheet" href="css/simple-line-icons.css" type="text/css" media="all"/>
+            <link rel="stylesheet" href="css/slick.css" type="text/css" media="all"/>
+            <link rel="stylesheet" href="css/animate.css" type="text/css" media="all"/>
+            <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all"/>
+            <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+            <NextScript />
+
+            <a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
+
+
+            <script src="js/jquery-1.12.3.min.js"></script>
+            <script src="js/jquery.easing.min.js"></script>
+            <script src="js/jquery.waypoints.min.js"></script>
+            <script src="js/jquery.counterup.min.js"></script>
+            <script src="js/popper.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/isotope.pkgd.min.js"></script>
+            <script src="js/infinite-scroll.min.js"></script>
+            <script src="js/imagesloaded.pkgd.min.js"></script>
+            <script src="js/slick.min.js"></script>
+            <script src="js/contact.js"></script>
+            <script src="js/validator.js"></script>
+            <script src="js/wow.min.js"></script>
+            <script src="js/morphext.min.js"></script>
+            <script src="js/parallax.min.js"></script>
+            <script src="js/jquery.magnific-popup.min.js"></script>
+            <script src="js/custom.js"></script>
+          </body>
+        </Html>
     );
   }
 }
