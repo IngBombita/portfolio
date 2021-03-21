@@ -1,0 +1,54 @@
+// Import custom variables and override default Bootstrap variables
+@import "./template/variables.scss";
+
+// Import Bootstrap
+@import "bootstrap/scss/bootstrap.scss";
+
+// Import custom styles
+@import "./template/global.scss";
+@import "./template/navbar.scss";
+@import "./template/masthead.scss";
+@import "./template/portfolio.scss";
+
+// Import custom utilities
+@import "./template/utilities.scss";
+
+@font-face {
+    font-family: 'Barista Script';
+    src: url('/fonts/barista-script.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Segan Light';
+    src: url('/fonts/segan-light.ttf') format('truetype');
+}
+
+body {
+  font-family: 'Segan Light';
+  overflow-x: hidden;
+  background-color: $cream;
+}
+
+.brand-title {
+  font-family: 'Barista Script';
+}
+
+.text-medium {
+  font-size: 1.2rem;
+}
+
+.text-white-65 {
+  color: rgba(255, 255, 255, 0.65) !important;
+}
+
+.dark-brown {
+  color: $dark-brown !important;
+}
+
+.coffee-color {
+  color: $coffee;
+}
+
+.cream-color {
+  color: $cream;
+}

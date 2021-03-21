@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  website:
+    image: node:12.16
+    hostname: website
+    ports:
+      - "80:3000"
+      - "1235:1235"
+    volumes:
+      - ../:/var/www
+    working_dir: /var/www
+    command: yarn dev
