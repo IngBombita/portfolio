@@ -13,8 +13,7 @@ class MyDocument extends Document {
           <Head />
           <body>
             <Main />
-            <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-            <title>Bolby - Portfolio/CV/Resume HTML Template</title>
+            <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8"/>
             <meta name="description" content="Bolby - Portfolio/CV/Resume HTML Template"/>
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
             <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>

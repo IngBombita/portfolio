@@ -1,9 +1,9 @@
 {
-  "name": "friscop",
+  "name": "potfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "npm run clean && next dev & node_modules/.bin/sass --watch --poll ./styles:./public/css",
+    "dev": "npm run clean && next dev -p 1234 & node_modules/.bin/sass --watch --poll ./styles:./public/css",
     "build2": "npm run clean && node_modules/.bin/sass --watch --poll ./styles:./public/css",
     "sass:watch": "node_modules/.bin/sass --watch --poll ./styles:./public/css",
     "build": "npm run clean & node_modules/.bin/sass ./styles:./public/css & next build",
