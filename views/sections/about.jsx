@@ -19,8 +19,9 @@ export default class About extends React.Component {
                             <div className="rounded bg-white shadow-dark padding-30">
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <p>I'm Edu, a web developer from Rafaela, Argentina. I have strong experience in
-                                            PHP projects applying TDD, DDD concepts, and hexagonal architecture.
+                                        <p>I'm Edu, a 23 years old web developer from Rafaela, Argentina. Apart of
+                                            coding, my passions are riding horse and coffee. I consider myself as
+                                            energetic, proactive and rational.
                                         </p>
                                         <div className="mt-3">
                                             <a href="#" className="btn btn-default">Download CV</a>

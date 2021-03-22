@@ -67,7 +67,7 @@ export default class Home extends React.Component {
 
                         <div className="site-logo">
                             <a href="index.html">
-                                <img src="images/logo.svg" alt="Bolby"/>
+                                <img src="img/development.svg" alt="Bolby" style={{'height': "50px"}}/>
                             </a>
                         </div>
                     </div>
@@ -75,7 +75,7 @@ export default class Home extends React.Component {
                 <header className="desktop-header-1 d-flex align-items-start flex-column">
                     <div className="site-logo">
                         <a href="index.html">
-                            <img src="images/logo.svg" alt="Bolby"/>
+                            <img src="img/development.svg" alt="Bolby" style={{'width': '200px'}}/>
                         </a>
                     </div>
                     <nav>
@@ -84,7 +84,6 @@ export default class Home extends React.Component {
                             <li><a href="#about"><i className="icon-user-following"></i>About</a></li>
                             <li><a href="#experience"><i className="icon-graduation"></i>Experience</a></li>
                             <li><a href="#works"><i className="icon-layers"></i>Works</a></li>
-                            <li><a href="#blog"><i className="icon-note"></i>Blog</a></li>
                             <li><a href="#contact"><i className="icon-bubbles"></i>Contact</a></li>
                         </ul>
                     </nav>
@@ -98,7 +97,6 @@ export default class Home extends React.Component {
                     <About/>
                     <Experience/>
                     <Work/>
-                    <Blog/>
                     <Contact/>
                     <div className="spacer" data-height="96"></div>
                 </main>
