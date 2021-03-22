@@ -1,5 +1,5 @@
 export default function handler(req, res) {
-    fetch("https://hooks.zapier.com/hooks/catch/5646471/o7llsnz/", {
+    fetch(process.env.WEBHOOK_URL, {
         method: "POST",
         body: JSON.stringify(req.body)
     });
