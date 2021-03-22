@@ -24,7 +24,8 @@ export default class About extends React.Component {
                                             energetic, proactive and rational.
                                         </p>
                                         <div className="mt-3">
-                                            <a href="#" className="btn btn-default">Download CV</a>
+                                            <a href="/EduCulasso-Resume.pdf" className="btn btn-default"
+                                               target='_blank'>Download CV</a>
                                         </div>
                                         <div className="spacer d-md-none d-lg-none" data-height="30"></div>
                                     </div>

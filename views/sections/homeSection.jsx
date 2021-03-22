@@ -10,11 +10,12 @@ export default class HomeSection extends React.Component {
                         <h1 className="mb-2 mt-0">Eduardo J. Culasso</h1>
                         <span>I'm <span className="text-rotating">Backend Developer at Rooftop, Software engineer student, Horse lover</span></span>
                         <ul className="social-icons light list-inline mb-0 mt-4">
-                            <li className="list-inline-item"><a href="#"><i className="fab fa-instagram"></i></a></li>
-                            <li className="list-inline-item"><a href="#"><i className="fab fa-twitter"></i></a></li>
-                            <li className="list-inline-item"><a href="#"><i className="fab fa-behance"></i></a></li>
-                            <li className="list-inline-item"><a href="#"><i className="fab fa-dribbble"></i></a></li>
-                            <li className="list-inline-item"><a href="#"><i className="fab fa-pinterest-p"></i></a></li>
+                            <li className="list-inline-item"><a href="https://www.instagram.com/eddie.cula/">
+                                <i className="fab fa-instagram"/></a></li>
+                            <li className="list-inline-item"><a href="https://www.linkedin.com/in/e-culasso/">
+                                <i className="fab fa-linkedin"/></a></li>
+                            <li className="list-inline-item"><a href="https://github.com/IngBombita">
+                                <i className="fab fa-github"/></a></li>
                         </ul>
                         <div className="mt-4">
                             <a href="#contact" className="btn btn-default">Hire me</a>
