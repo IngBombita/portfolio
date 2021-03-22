@@ -16,7 +16,7 @@ class MyDocument extends Document {
             <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8"/>
             <meta name="description" content="Bolby - Portfolio/CV/Resume HTML Template"/>
             <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
-            <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png"/>
+            <link rel="shortcut icon" type="image/x-icon" href="img/development.svg"/>
 
             <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" media="all"/>
             <link rel="stylesheet" href="css/all.min.css" type="text/css" media="all"/>
@@ -25,10 +25,8 @@ class MyDocument extends Document {
             <link rel="stylesheet" href="css/animate.css" type="text/css" media="all"/>
             <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" media="all"/>
             <link rel="stylesheet" href="css/style.css" type="text/css" media="all"/>
+
             <NextScript />
-
-            <a href="javascript:" id="return-to-top"><i class="fas fa-arrow-up"></i></a>
-
 
             <script src="js/jquery-1.12.3.min.js"></script>
             <script src="js/jquery.easing.min.js"></script>
@@ -40,7 +38,6 @@ class MyDocument extends Document {
             <script src="js/infinite-scroll.min.js"></script>
             <script src="js/imagesloaded.pkgd.min.js"></script>
             <script src="js/slick.min.js"></script>
-            <script src="js/contact.js"></script>
             <script src="js/validator.js"></script>
             <script src="js/wow.min.js"></script>
             <script src="js/morphext.min.js"></script>

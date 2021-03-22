@@ -922,7 +922,7 @@ section.home.light .social-icons li a:hover {
 }
 .section-title:before {
   content: "";
-  background-image: url(../images/dots-bg.svg);
+  background-image: url(../img/dots-bg.svg);
   display: block;
   height: 37px;
   left: -14px;
@@ -1641,7 +1641,7 @@ select.portfolio-filter-mobile {
 /*                      CONTACT                              
 /*=================================================================*/
 .contact-info {
-  background-image: url("../images/map.svg");
+  background-image: url("../img/map.svg");
   background-repeat: no-repeat;
   background-size: contain;
   min-height: 200px;
@@ -1802,7 +1802,7 @@ body.dark .section-title {
   color: #FFF;
 }
 body.dark .section-title:before {
-  background: url("../images/dots-bg-light.svg");
+  background: url("../img/dots-bg-light.svg");
 }
 body.dark .bg-dark {
   background: #302f4e !important;

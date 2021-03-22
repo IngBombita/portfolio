@@ -131,14 +131,6 @@ export default class Work extends React.Component {
                             </a>
                         </div>
                     </div>
-                    <div className="load-more text-center mt-4">
-                        <a href="javascript:" className="btn btn-default"><i className="fas fa-spinner"></i> Load
-                            more</a>
-                        <ul className="portfolio-pagination list-inline d-none">
-                            <li className="list-inline-item">1</li>
-                            <li className="list-inline-item"><a href="works-2.html">2</a></li>
-                        </ul>
-                    </div>
                 </div>
             </section>
         );

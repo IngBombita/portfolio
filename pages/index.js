@@ -80,7 +80,7 @@ export default class Home extends React.Component {
                     </div>
                     <nav>
                         <ul className="vertical-menu scrollspy">
-                            <li className="active"><a href="#home"><i className="icon-home"></i>Home</a></li>
+                            <li className="active"><a href="#home"><i className="icon-home"/>Home</a></li>
                             <li><a href="#about"><i className="icon-user-following"></i>About</a></li>
                             <li><a href="#experience"><i className="icon-graduation"></i>Experience</a></li>
                             <li><a href="#works"><i className="icon-layers"></i>Works</a></li>
@@ -96,7 +96,6 @@ export default class Home extends React.Component {
                     <HomeSection/>
                     <About/>
                     <Experience/>
-                    <Work/>
                     <Contact/>
                     <div className="spacer" data-height="96"></div>
                 </main>
