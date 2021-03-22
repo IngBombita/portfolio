@@ -11,7 +11,7 @@ export default class About extends React.Component {
                         <div className="col-md-3">
                             <div className="text-center text-md-left">
 
-                                <img src="images/avatar-2.svg" alt="Bolby"/>
+                                <img src="img/avatar300x300.jpg" alt="Eddie"/>
                             </div>
                             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
                         </div>
@@ -19,11 +19,9 @@ export default class About extends React.Component {
                             <div className="rounded bg-white shadow-dark padding-30">
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <p>I am Bolby Doe, web developer from London, United Kingdom. I have
-                                            rich
-                                            experience in web site design and building and customization, also I
-                                            am good
-                                            at WordPress.</p>
+                                        <p>I'm Edu, a web developer from Rafaela, Argentina. I have strong experience in
+                                            PHP projects applying TDD, DDD concepts, and hexagonal architecture.
+                                        </p>
                                         <div className="mt-3">
                                             <a href="#" className="btn btn-default">Download CV</a>
                                         </div>
@@ -32,25 +30,25 @@ export default class About extends React.Component {
                                     <div className="col-md-6">
                                         <div className="skill-item">
                                             <div className="skill-info clearfix">
-                                                <h4 className="float-left mb-3 mt-0">Development</h4>
-                                                <span className="float-right">85%</span>
-                                            </div>
-                                            <div className="progress">
-                                                <div className="progress-bar data-background" role="progressbar"
-                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"
-                                                     data-color="#FFD15C">
-                                                </div>
-                                            </div>
-                                            <div className="spacer" data-height="20"></div>
-                                        </div>
-                                        <div className="skill-item">
-                                            <div className="skill-info clearfix">
-                                                <h4 className="float-left mb-3 mt-0">UI/UX design</h4>
+                                                <h4 className="float-left mb-3 mt-0">Logical Thinking</h4>
                                                 <span className="float-right">95%</span>
                                             </div>
                                             <div className="progress">
                                                 <div className="progress-bar data-background" role="progressbar"
                                                      aria-valuemin="0" aria-valuemax="100" aria-valuenow="95"
+                                                     data-color="#6C6CE5">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div className="spacer" data-height="20"></div>
+                                        <div className="skill-item">
+                                            <div className="skill-info clearfix">
+                                                <h4 className="float-left mb-3 mt-0">Clean code & good practices</h4>
+                                                <span className="float-right">75%</span>
+                                            </div>
+                                            <div className="progress">
+                                                <div className="progress-bar data-background" role="progressbar"
+                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"
                                                      data-color="#FF4C60">
                                                 </div>
                                             </div>
@@ -58,15 +56,16 @@ export default class About extends React.Component {
                                         </div>
                                         <div className="skill-item">
                                             <div className="skill-info clearfix">
-                                                <h4 className="float-left mb-3 mt-0">Photography</h4>
-                                                <span className="float-right">70%</span>
+                                                <h4 className="float-left mb-3 mt-0">Teamwork & Adaptability</h4>
+                                                <span className="float-right">80%</span>
                                             </div>
                                             <div className="progress">
                                                 <div className="progress-bar data-background" role="progressbar"
-                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="70"
-                                                     data-color="#6C6CE5">
+                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="95"
+                                                     data-color="#FFD15C">
                                                 </div>
                                             </div>
+                                            <div className="spacer" data-height="20"></div>
                                         </div>
                                     </div>
                                 </div>
@@ -75,42 +74,32 @@ export default class About extends React.Component {
                     </div>
                     <div className="spacer" data-height="70"></div>
                     <div className="row">
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-4">
                             <div className="fact-item">
-                                <span className="icon icon-fire"></span>
+                                <span className="icon icon-briefcase"></span>
                                 <div className="details">
-                                    <h3 className="mb-0 mt-0 number"><em className="count">198</em></h3>
-                                    <p className="mb-0">Projects completed</p>
+                                    <h3 className="mb-0 mt-0 number"><em className="count">3</em></h3>
+                                    <p className="mb-0">years of experience</p>
                                 </div>
                             </div>
                             <div className="spacer d-md-none d-lg-none" data-height="30"></div>
                         </div>
-                        <div className="col-md-3 col-sm-6">
+                        <div className="col-md-4">
+                            <div className="fact-item">
+                                <span className="icon icon-chart"></span>
+                                <div className="details">
+                                    <h3 className="mb-0 mt-0 number"><em className="count">1709</em></h3>
+                                    <p className="mb-0">Commis pushed</p>
+                                </div>
+                            </div>
+                            <div className="spacer d-md-none d-lg-none" data-height="30"></div>
+                        </div>
+                        <div className="col-md-4">
                             <div className="fact-item">
                                 <span className="icon icon-cup"></span>
                                 <div className="details">
-                                    <h3 className="mb-0 mt-0 number"><em className="count">5670</em></h3>
-                                    <p className="mb-0">Cup of coffee</p>
-                                </div>
-                            </div>
-                            <div className="spacer d-md-none d-lg-none" data-height="30"></div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="fact-item">
-                                <span className="icon icon-people"></span>
-                                <div className="details">
-                                    <h3 className="mb-0 mt-0 number"><em className="count">427</em></h3>
-                                    <p className="mb-0">Satisfied clients</p>
-                                </div>
-                            </div>
-                            <div className="spacer d-md-none d-lg-none" data-height="30"></div>
-                        </div>
-                        <div className="col-md-3 col-sm-6">
-                            <div className="fact-item">
-                                <span className="icon icon-badge"></span>
-                                <div className="details">
-                                    <h3 className="mb-0 mt-0 number"><em className="count">35</em></h3>
-                                    <p className="mb-0">Nominees winner</p>
+                                    <h3 className="mb-0 mt-0 number"><em className="count">9876</em></h3>
+                                    <p className="mb-0">Drunk coffee cups</p>
                                 </div>
                             </div>
                         </div>

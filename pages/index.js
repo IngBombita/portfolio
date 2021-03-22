@@ -27,7 +27,6 @@ export default class Home extends React.Component {
                 <Head>
                     <title>Edu Culasso - Backend developer</title>
                 </Head>
-
                 <div id="preloader">
                     <div className="outer">
                         <div className="infinityChrome">
@@ -58,7 +57,6 @@ export default class Home extends React.Component {
                         </svg>
                     </div>
                 </div>
-
                 <header className="mobile-header-1">
                     <div className="container">
                         <div className="menu-icon d-inline-flex mr-4">
@@ -74,7 +72,6 @@ export default class Home extends React.Component {
                         </div>
                     </div>
                 </header>
-
                 <header className="desktop-header-1 d-flex align-items-start flex-column">
                     <div className="site-logo">
                         <a href="index.html">
@@ -85,7 +82,6 @@ export default class Home extends React.Component {
                         <ul className="vertical-menu scrollspy">
                             <li className="active"><a href="#home"><i className="icon-home"></i>Home</a></li>
                             <li><a href="#about"><i className="icon-user-following"></i>About</a></li>
-                            <li><a href="#services"><i className="icon-briefcase"></i>Services</a></li>
                             <li><a href="#experience"><i className="icon-graduation"></i>Experience</a></li>
                             <li><a href="#works"><i className="icon-layers"></i>Works</a></li>
                             <li><a href="#blog"><i className="icon-note"></i>Blog</a></li>
@@ -98,15 +94,12 @@ export default class Home extends React.Component {
                 </header>
 
                 <main className="content">
-
                     <HomeSection/>
                     <About/>
-                    <Services/>
                     <Experience/>
                     <Work/>
                     <Blog/>
                     <Contact/>
-
                     <div className="spacer" data-height="96"></div>
                 </main>
             </>

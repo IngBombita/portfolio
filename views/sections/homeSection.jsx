@@ -8,8 +8,8 @@ export default class HomeSection extends React.Component {
                     <div className="intro">
 
                         <img src="images/avatar-1.svg" alt="Bolby" className="mb-4"/>
-                        <h1 className="mb-2 mt-0">Bolby Doe</h1>
-                        <span>I'm a <span className="text-rotating">UI/UX designer, Front-End developer, Photography lover</span></span>
+                        <h1 className="mb-2 mt-0">Eduardo J. Culasso</h1>
+                        <span>I'm a <span className="text-rotating">Backend Developer at Rooftop, Software engineer student, Horse lover</span></span>
                         <ul className="social-icons light list-inline mb-0 mt-4">
                             <li className="list-inline-item"><a href="#"><i className="fab fa-instagram"></i></a></li>
                             <li className="list-inline-item"><a href="#"><i className="fab fa-twitter"></i></a></li>
