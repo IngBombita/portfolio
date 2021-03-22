@@ -6,6 +6,7 @@ import Experience from "../views/sections/experience";
 import Work from "../views/sections/work";
 import Blog from "../views/sections/blog";
 import Contact from "../views/sections/contact";
+import HomeSection from "../views/sections/homeSection";
 
 export default class Home extends React.Component {
     componentDidMount() {
@@ -98,7 +99,7 @@ export default class Home extends React.Component {
 
                 <main className="content">
 
-                    <Home/>
+                    <HomeSection/>
                     <About/>
                     <Services/>
                     <Experience/>
