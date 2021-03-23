@@ -1,10 +1,7 @@
 import React from "react";
 import Head from "next/head";
 import About from "../views/sections/about";
-import Services from "../views/sections/services";
 import Experience from "../views/sections/experience";
-import Work from "../views/sections/work";
-import Blog from "../views/sections/blog";
 import Contact from "../views/sections/contact";
 import HomeSection from "../views/sections/homeSection";
 
@@ -18,7 +15,7 @@ export default class Home extends React.Component {
         }
 
         gtag("js", new Date());
-        gtag("config", "UA-167230578-1");
+        gtag("config", "G-RG7ZEQJW9Z");
     }
 
     render() {
