@@ -6,7 +6,7 @@ export default class HomeSection extends React.Component {
             <section id="home" className="home d-flex align-items-center">
                 <div className="container">
                     <div className="intro">
-                        <img src="img/profile.jpg" alt="Profile photo" className="mb-4 rounded shadow-lg"/>
+                        <img src="img/profile.jpg" alt="Profile photo" className="mb-4 rounded shadow-lg profile-img"/>
                         <h1 className="mb-2 mt-0">Eduardo J. Culasso</h1>
                         <span>I'm <span className="text-rotating">Backend Developer at Rooftop, Software engineer student, Horse lover</span></span>
                         <ul className="social-icons light list-inline mb-0 mt-4">

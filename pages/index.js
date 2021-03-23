@@ -25,7 +25,8 @@ export default class Home extends React.Component {
         return (
             <>
                 <Head>
-                    <title>Edu Culasso - Backend developer</title>
+                    <title>Eddie's Portfolio</title>
+                    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
                 </Head>
                 <div id="preloader">
                     <div className="outer">
@@ -72,18 +73,17 @@ export default class Home extends React.Component {
                         </div>
                     </div>
                 </header>
-                <header className="desktop-header-1 d-flex align-items-start flex-column">
+                <header className="desktop-header-1 d-flex align-items-start flex-column scrollspy">
                     <div className="site-logo">
                         <a href="index.html">
                             <img src="img/development.svg" alt="Bolby" style={{'width': '200px'}}/>
                         </a>
                     </div>
                     <nav>
-                        <ul className="vertical-menu scrollspy">
+                        <ul className="vertical-menu">
                             <li className="active"><a href="#home"><i className="icon-home"/>Home</a></li>
                             <li><a href="#about"><i className="icon-user-following"></i>About</a></li>
                             <li><a href="#experience"><i className="icon-graduation"></i>Experience</a></li>
-                            <li><a href="#works"><i className="icon-layers"></i>Works</a></li>
                             <li><a href="#contact"><i className="icon-bubbles"></i>Contact</a></li>
                         </ul>
                     </nav>
