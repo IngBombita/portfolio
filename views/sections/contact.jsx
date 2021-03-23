@@ -48,7 +48,7 @@ export default class Contact extends React.Component {
                             <div className="contact-info">
                                 <h3 className="wow fadeInUp">Let's talk about everything!</h3>
                                 <p className="wow fadeInUp">Don't like forms? Send me an <a
-                                    href="mailto:name@example.com">email</a>. 👋</p>
+                                    href="mailto:eduardojulioculasso@gmail.com">email</a>. 👋</p>
                             </div>
                         </div>
                         <div className="col-md-8">

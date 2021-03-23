@@ -25,7 +25,7 @@ export default class About extends React.Component {
                                         </p>
                                         <div className="mt-3">
                                             <a href="/EduCulasso-Resume.pdf" className="btn btn-default"
-                                               target='_blank'>Download CV</a>
+                                               target='_blank'>Download Resume</a>
                                         </div>
                                         <div className="spacer d-md-none d-lg-none" data-height="30"></div>
                                     </div>
