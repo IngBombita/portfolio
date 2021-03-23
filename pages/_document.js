@@ -44,6 +44,7 @@ class MyDocument extends Document {
                 <Main/>
                 <NextScript/>
 
+                <script async src="https://www.googletagmanager.com/gtag/js?id=G-RG7ZEQJW9Z"/>
                 <script src="js/jquery-1.12.3.min.js"></script>
                 <script src="js/jquery.easing.min.js"></script>
                 <script src="js/jquery.waypoints.min.js"></script>
