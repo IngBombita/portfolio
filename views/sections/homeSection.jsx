@@ -10,11 +10,11 @@ export default class HomeSection extends React.Component {
                         <h1 className="mb-2 mt-0">Eduardo J. Culasso</h1>
                         <span>I'm a <span className="text-rotating">Web Developer at Rooftop, Software engineer student, horse lover</span></span>
                         <ul className="social-icons light list-inline mb-0 mt-4">
-                            <li className="list-inline-item"><a href="https://www.instagram.com/eddie.cula/">
+                            <li className="list-inline-item"><a href="https://www.instagram.com/eddie.cula/" target={'_blank'}>
                                 <i className="fab fa-instagram"/></a></li>
-                            <li className="list-inline-item"><a href="https://www.linkedin.com/in/e-culasso/">
+                            <li className="list-inline-item"><a href="https://www.linkedin.com/in/e-culasso/" target={'_blank'}>
                                 <i className="fab fa-linkedin"/></a></li>
-                            <li className="list-inline-item"><a href="https://github.com/IngBombita">
+                            <li className="list-inline-item"><a href="https://github.com/IngBombita" target={'_blank'}>
                                 <i className="fab fa-github"/></a></li>
                         </ul>
                         <div className="mt-4">
