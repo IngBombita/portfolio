@@ -9,7 +9,8 @@ export default class Contact extends React.Component {
             name: '',
             email: '',
             subject: '',
-            message: ''
+            message: '',
+            disable: false
         };
 
         this.contact = this.contact.bind(this);

@@ -19,13 +19,16 @@ export default class About extends React.Component {
                             <div className="rounded bg-white shadow-dark padding-30">
                                 <div className="row">
                                     <div className="col-md-6">
-                                        <p>I'm Edu, a 23 years old web developer from Rafaela, Argentina. Apart of
-                                            coding, my passions are riding horse and coffee. I consider myself as
-                                            energetic, proactive and rational.
+                                        <p>I'm Edu, a 23 year-old web developer from Rafaela, Argentina. Apart of
+                                            coding, my passions are riding horses and drinking coffee. I consider myself
+                                            an energetic, proactive and rational person.
                                         </p>
                                         <div className="mt-3">
                                             <a href="/EduCulasso-Resume.pdf" className="btn btn-default"
-                                               target='_blank'>Download Resume</a>
+                                               target='_blank'>Resume</a>
+                                            <a href="/EduCulasso-Resume.pdf" className="btn btn-default"
+                                               style={{'margin-left': '10px'}}
+                                               target='_blank'>Curriculum</a>
                                         </div>
                                         <div className="spacer d-md-none d-lg-none" data-height="30"></div>
                                     </div>
@@ -46,11 +49,11 @@ export default class About extends React.Component {
                                         <div className="skill-item">
                                             <div className="skill-info clearfix">
                                                 <h4 className="float-left mb-3 mt-0">Clean code & good practices</h4>
-                                                <span className="float-right">75%</span>
+                                                <span className="float-right">85%</span>
                                             </div>
                                             <div className="progress">
                                                 <div className="progress-bar data-background" role="progressbar"
-                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"
+                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="88"
                                                      data-color="#FF4C60">
                                                 </div>
                                             </div>
