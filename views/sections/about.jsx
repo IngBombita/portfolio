@@ -24,9 +24,9 @@ export default class About extends React.Component {
                                             an energetic, proactive and rational person.
                                         </p>
                                         <div className="mt-3">
-                                            <a href="/EduCulasso-Resume.pdf" className="btn btn-default"
+                                            <a href="/EduCulasso-Resume-EN.pdf" className="btn btn-default"
                                                target='_blank'>Resume</a>
-                                            <a href="/EduCulasso-Resume.pdf" className="btn btn-default"
+                                            <a href="/EduCulasso-Resume-ES.pdf" className="btn btn-default"
                                                style={{'margin-left': '10px'}}
                                                target='_blank'>Curriculum</a>
                                         </div>
