@@ -62,11 +62,11 @@ export default class About extends React.Component {
                                         <div className="skill-item">
                                             <div className="skill-info clearfix">
                                                 <h4 className="float-left mb-3 mt-0">Teamwork & Adaptability</h4>
-                                                <span className="float-right">80%</span>
+                                                <span className="float-right">90%</span>
                                             </div>
                                             <div className="progress">
                                                 <div className="progress-bar data-background" role="progressbar"
-                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"
+                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="90"
                                                      data-color="#FFD15C">
                                                 </div>
                                             </div>
