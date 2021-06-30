@@ -53,7 +53,7 @@ export default class About extends React.Component {
                                             </div>
                                             <div className="progress">
                                                 <div className="progress-bar data-background" role="progressbar"
-                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="88"
+                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="85"
                                                      data-color="#FF4C60">
                                                 </div>
                                             </div>
@@ -66,7 +66,7 @@ export default class About extends React.Component {
                                             </div>
                                             <div className="progress">
                                                 <div className="progress-bar data-background" role="progressbar"
-                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="95"
+                                                     aria-valuemin="0" aria-valuemax="100" aria-valuenow="80"
                                                      data-color="#FFD15C">
                                                 </div>
                                             </div>
